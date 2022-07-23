@@ -1,0 +1,128 @@
+.body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: auto;
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+    height: 50px;
+}
+
+.logo{
+    float: left;
+    width: 15%;
+    margin-left: 320px;
+}
+
+.menu{
+    float: right;
+    width: 30%;
+    margin-left: 15px;
+}
+
+.cursos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;;
+}    
+.cursos:hover{
+    text-decoration: underline;
+    border-bottom: 5px;
+}
+
+
+.proyectos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.proyectos:hover{
+    text-decoration: underline;
+}
+
+.plus{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.plus:hover{
+    text-decoration: underline;
+}
+
+.empleo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.empleo:hover{
+    text-decoration: underline;
+}
+
+.image{
+    height: 30px;
+    padding: 40px;
+}
+
+
+
+.miscursos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;
+    max-width: fit-content;
+}
+.miscursos:hover{
+    text-decoration: underline;
+}
+
+.spanmiscursos{
+    margin-left: 130px;
+}
+
+.buscador{
+    background-color: #343434;
+    width: 280px;
+    border-radius: 4px;
+    display: flex;
+    align-content: flex-start;
+    color: #6d7781;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+.banner{
+    min-width: 1166px;
+    min-height: 607px;
+    max-width: 1166px;
+    background-image: url(https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_624,q_auto:eco,w_1199/v1657628882/home-hero-covers/es/000/006/356/6356-original.png?1657628882);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+}
+
+.background{
+    background-color: #FEF7CE;
+    min-height: 607px;
+    width: 100%;
+}
+
